@@ -414,8 +414,8 @@ sudo apt install python3-dev
 
 ## 7. Create Wallet Addresses
 Before being able to proceed further, you will need **two** seperate Tao wallet addresses to operate a masternode.
-One helps to operate the masternode day-to-day, and the other is where the 50,000 TAO (50k) is staked from.
-The genius of this is that the wallet where the 50k will pass through (and where rewards will eventually come into) is never stored or seen by the VPS server.
+One helps to operate the masternode day-to-day, and the other is where the 100,000 TAO (100k) is staked from.
+The genius of this is that the wallet where the 100k will pass through (and where rewards will eventually come into) is never stored or seen by the VPS server.
 This is a security strategy that keeps your coins safe.
 
 > WALLET1 - Operating Wallet:
@@ -424,7 +424,7 @@ It effectively acts as a unique identifier of your masternode.
 No coins need to be inserted in this wallet; It's even advised to be empty, so in case of breach, no funds are exposed.
 
 > WALLET2 - Deposit Wallet:
-Your 50k of staked coins need to be placed here; later, the 50k will go into a smart contract; eventually, masternode rewards will show here.
+Your 100k of staked coins need to be placed here; later, the 100k will go into a smart contract; eventually, masternode rewards will show here.
 
 You will need both the **Public Key** and **Private Key** for both addresses.
 It is advise that you store all of this information somewhere safe, yet accessible.
@@ -440,7 +440,7 @@ Give it to no one.
   You can use Ledger Hardware Wallet, however the added security on WALLET1 isn't as necessary.
 
 * WALLET2 Suggestions - 
-  Preferred to use Ledger / Hardware Wallet (if possible) in combo with Metamask because 50k and rewards will be handled here.
+  Preferred to use Ledger / Hardware Wallet (if possible) in combo with Metamask because 100k and rewards will be handled here.
   Assure to use an address you do not have history on eth chain with - otherwise others will be able to see your unrelated investment history.
 
 Because most wallet apps do not have Tao mainnet as a selectable network yet, you will need to manually add the new mainnet if you have not already. 
