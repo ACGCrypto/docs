@@ -143,12 +143,17 @@ sudo curl -L https://github.com/Tao-Network/create-tao-masternode/tree/master/cr
 
 Make it executable
 ```
-chmod +x create-tao-masternode
+sudo chmod +x create-tao-masternode
 ```
 Move it to /usr/local/bin/ so it's in your path.
 ```
 sudo mv create-tao-masternode /usr/local/bin/
 ```
+Install it with pip3
+```
+pip3 install create-tao-masternode
+```
+
 Create a folder in your user account folder where the chain data will be stored 
 ```
 mkdir /home/yourusername/taodata
